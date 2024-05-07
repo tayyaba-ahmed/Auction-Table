@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closed Auctions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- navbar start -->
+  <img src="Images/Capture.PNG" alt="" class="image1 img-fluid" height="auto">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="Tclick()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto firstul">
+          <li class="nav-item">
+            <a class="nav-link home" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="artwork.html">Art Work</a></li>
+              <li><a class="dropdown-item" href="antiques.html">Antiques</a></li>
+              <li><a class="dropdown-item" href="jewellery.html">Jewellery</a></li>
+              <li><a class="dropdown-item" href="watches.html">Watches</a></li>
+              <li><a class="dropdown-item" href="furniture.html">Furniture</a></li>
+              <li><a class="dropdown-item" href="gemstones.html">Gemstones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Closed Auctions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item navbtn">
+            <button class="btnnn" data-bs-toggle="modal" data-bs-target="#exampleModal500">Sign Up</button>
+          </li>
+          <li class="nav-item navbtn">
+            <button class="btn2" data-bs-toggle="modal" data-bs-target="#exampleModal501">Login</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <a class="navbarbrand navbarheading" href="#">Auction Table</a>
+  <p class="p1 navbarheading">BID, WIN, SELL, PROFIT! <br><br><br></p>
+  <!-- navbar end -->
+  <main>
+    <!-- introduction start -->
+    <div class="card hahah" style="border: none;">
+      <div class="row" style="margin: 1%;">
+        <div class="col-lg-12 col-sm-12" style="padding: 0%;">
+          <p class="auctionp1">Welcome to our Closed Auctions Page! Here, you'll find a curated collection of recently
+            concluded auctions,
+            showcasing a diverse range of unique items that have found new homes through our platform. Whether you're
+            curious about past bidding activity, seeking inspiration for your next purchase, or simply interested in
+            exploring the variety of items that have passed through our auctions, you're in the right place. Browse
+            through
+            our listings to discover the final bids, auction winners, and a glimpse into the vibrant marketplace that
+            our
+            community has created. Happy exploring!</p>
+        </div>
+      </div>
+    </div>
+    <!-- introduction end-->
+    <h1 class="page2head" style="margin-top: 2rem;">Closed Auction Pieces</h1>
+    <!-- card1 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionart1.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Artwork Title:</span>&nbsp;"Ethereal Rhythms"
+            <br>
+            <span class="page2title"> Artist:</span>&nbsp;Isabella Montague
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $100 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $500 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal600">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card1 end -->
+      <!-- Modal1 start -->
+      <div class="modal fade" id="exampleModal600" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Ethereal Rhythms" By Isabella Montague</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionart1.jpeg" alt="" class="auctionimages1">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Medium:</b> Acrylic on Canvas
+                      <br><br>
+                      <b>Dimensions:</b> 80 cm × 120 cm (31.5 in × 47 in)
+                      <br><br>
+                      <b>Creation Year:</b> 2022
+                      <br><br>
+                      <b>Provenance:</b> Private collection, Japan.
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Zephyra Windrunner
+                      <br><br>
+                      <i><b>Isabella Montague, an artist whose canvas breathes life into dreams, where each stroke is a
+                          whisper of emotion and each hue a melody of the soul. Through her art, she invites us to
+                          wander through realms where imagination dances freely and the boundaries of reality blur into
+                          exquisite beauty.</b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf"><a href="Images/close auc1.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal1 end -->
+      <!-- card2 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionart2.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Artwork Title:</span>&nbsp; "Moments Apart"
+            <br>
+            <span class="page2title"> Artist:</span>&nbsp;Benjamin Harper
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $110 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $350 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal601">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card2 end -->
+      <!-- Modal2 start -->
+      <div class="modal fade" id="exampleModal601" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Moments Apart" By Benjamin Harper</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionart2.jpeg" alt="" class="auctionimages1">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Medium:</b> Acrylic on Canvas
+                      <br><br>
+                      <b>Dimensions:</b> 70 cm × 100 cm (27.5 in × 39.5 in)
+                      <br><br>
+                      <b>Creation Year:</b> 2023
+                      <br><br>
+                      <b>Provenance:</b> Private collection, Turkey.
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Aerinna Brightstar
+                      <br><br>
+                      <i><b>"Moments Apart" by Benjamin Harper captures the essence of fleeting emotions frozen in time,
+                          each brushstroke a whispered tale of longing and separation. Through his art, Harper delves
+                          into the intricacies of human connection, portraying moments suspended in the delicate balance
+                          between presence and absence.</b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc2.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal2 end -->
+      <!-- card3 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionart3.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Artwork Title:</span>&nbsp; "Solace"
+            <br>
+            <span class="page2title"> Artist:</span>&nbsp; Lucas Everhart
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $90 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $400 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal602">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card3 end -->
+    <!-- Modal3 start -->
+    <div class="modal fade" id="exampleModal602" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"Solace on the Serene Seas" By Lucas Everhart</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/auctionart3.jpeg" alt="" class="auctionimages1">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Medium:</b> Acrylic on Canvas
+                    <br><br>
+                    <b>Dimensions:</b> 50 cm × 70 cm (19.5 in × 27.5 in)
+                    <br><br>
+                    <b>Creation Year:</b> 2023
+                    <br><br>
+                    <b>Provenance:</b> Private collection, Canada.
+                    <br><br>
+                    <b>Current Owner:</b>
+                    Quillon Nightshade
+                    <br><br>
+                    <i><b>Lucas Everhart, a visionary artist whose creations transcend the ordinary, weaving tales of
+                        wonder with every brushstroke. His canvases are windows into realms where magic and reality
+                        intertwine, inviting viewers to explore the depths of their imagination.</b></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc3.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal3 end -->
+    <!-- card4 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/Ant15.jpg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Antique Name:</span>&nbsp;"Antique Radiance Ensemble"
+            <br>
+            <span class="page2title"> Year of Manufacture:</span>&nbsp;1885
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $2 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $5 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal603">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card4 end -->
+      <!-- Modal4 start -->
+      <div class="modal fade" id="exampleModal603" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Antique Radiance Ensemble"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/Ant15.jpg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Craftsman:</b> Aria Stormbringer
+                      <br><br>
+                      <b>Dimensions:</b> Height: 15 inches, Diameter: 20 inches
+                      <br><br>
+                      <b>Material: </b> Aetherrealm
+                      <br><br>
+                      <b>Previous Owner: </b> Orion Nightshade
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Luna Silvermoon
+                      <br><br>
+                      <i><b>The "Antique Radiance Ensemble" embodies the essence of bygone eras, a collection of
+                          treasures that whisper tales of grandeur and opulence. Each piece, with its intricate
+                          craftsmanship and time-worn beauty, carries the weight of history upon its gilded shoulders.
+                        </b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc4.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal4 end -->
+      <!-- card5 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionant1.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Antique Name:</span>&nbsp; "Glimmering Elegance"
+            <br>
+            <span class="page2title"> Year of Manufacture:</span>&nbsp;1790
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $5 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $10 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal604">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card5 end -->
+      <!-- Modal5 start -->
+      <div class="modal fade" id="exampleModal604" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Glimmering Elegance"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionant1.jpeg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Craftsman:</b> Phoenix Fireheart
+                      <br><br>
+                      <b>Dimensions:</b> Height: 10 inches, Diameter: 15 inches
+                      <br><br>
+                      <b>Material: </b> Symmetria
+                      <br><br>
+                      <b>Previous Owner: </b> Ember Frost
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Thalia Sunbeam
+                      <br><br>
+                      <i><b>"Glimmering Elegance" is more than just an Antique; it's a symphony of light and grace, a
+                          manifestation of beauty beyond compare. Crafted with meticulous precision and adorned with
+                          shimmering jewels, it exudes an ethereal allure that captivates all who behold it.</b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc5.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal5 end -->
+      <!-- card6 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionant2.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Antique Name:</span>&nbsp; "Celestial Guardian"
+            <br>
+            <span class="page2title"> Year of Manufacture:</span>&nbsp; Lucas Everhart
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $50 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $190 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal605">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card6 end -->
+    <!-- Modal6 start -->
+    <div class="modal fade" id="exampleModal605" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"Celestial Guardian"</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/auctionant2.jpeg" alt="" class="antiqueimages3">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Craftsman:</b> Atlas Darkwood
+                    <br><br>
+                    <b>Dimensions:</b> Height: 6 feet, Diameter: 1 foot
+                    <br><br>
+                    <b>Material: </b> Ethereal Nexus
+                    <br><br>
+                    <b>Previous Owner: </b> Nova Starling
+                    <br><br>
+                    <b>Current Owner:</b>
+                    Dax Shadowcaster
+                    <br><br>
+                    <i><b>The "Celestial Guardian" stands as a beacon of divine protection, its form sculpted with grace
+                        and majesty, crowned by wings that span the heavens. Carved from the finest marble, its ethereal
+                        beauty transcends mortal craftsmanship, embodying the timeless elegance of celestial beings.
+                      </b></i>
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc6.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal6 end -->
+    <!-- card7 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/W13.jpg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Watch Name:</span>&nbsp;"Eclipse Chronograph"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;Horizon Timepieces
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $18 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $60 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal606">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card7 end -->
+      <!-- Modal7 start -->
+      <div class="modal fade" id="exampleModal606" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Eclipse Chronograph" By Horizon Timepieces</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/W13.jpg" alt="" class="artworkimages2">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Case Diameter:</b> 40mm
+                      <br><br>
+                      <b>Case Material:</b> Ceramic
+                      <br><br>
+                      <b>Creation Year:</b> 2023
+                      <br><br>
+                      <b>Watch Movement:</b> Mechanical hand-wound movement with tourbillon complication
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Griffin Thunderheart
+                      <br><br>
+                      <i><b>Horizon Timepieces, where time is not merely measured but celebrated in every tick and tock.
+                          Our watches, crafted with precision and passion, embody the spirit of endless possibilities
+                          and boundless horizons. </b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf
+              " data-bs-dismiss="modal"><a href="Images/close auc7.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal7 end -->
+      <!-- card8 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/W14.jpg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Watch Name:</span>&nbsp; "Stellar Navigator"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;Luminary Watches
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $70 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $130 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal607">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card8 end -->
+      <!-- Modal8 start -->
+      <div class="modal fade" id="exampleModal607" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Stellar Navigator" By Luminary Watches</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/W14.jpg" alt="" class="artworkimages2">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Case Diameter:</b> 38mm
+                      <br><br>
+                      <b>Case Material:</b> Rose gold-plated stainless steel
+                      <br><br>
+                      <b>Creation Year:</b> 2023
+                      <br><br>
+                      <b>Watch Movement:</b> Quartz movement with chronograph complication
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Aurora Skyborn
+                      <br><br>
+                      <i><b>Luminary Watches, where time becomes a luminous journey through elegance and innovation. Its
+                          timepieces, meticulously crafted with a blend of tradition and modernity, illuminate every
+                          moment with unparalleled brilliance. </b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc8.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal8 end -->
+      <!-- card9 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/W15.jpg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Watch Name:</span>&nbsp; "Odyssey Aviator"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp; Vanguard Timecraft
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $40 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $90 million           <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal608">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card9 end -->
+    <!-- Modal9 start -->
+    <div class="modal fade" id="exampleModal608" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"Odyssey Aviator" By Vanguard Timecraft</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/W15.jpg" alt="" class="artworkimages2">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Case Diameter:</b> 42mm
+                    <br><br>
+                    <b>Case Material:</b> Titanium
+                    <br><br>
+                    <b>Creation Year:</b> 2022
+                    <br><br>
+                    <b>Watch Movement:</b> Automatic movement with skeletonized dial
+                    <br><br>
+                    <b>Current Owner:</b>
+                    Willow Moonlight
+                    <br><br>
+                    <i><b> Vanguard Timecraft's vision is to redefine traditional watchmaking by combining cutting-edge
+                        technology with timeless craftsmanship. The company's mission is to create timepieces that
+                        inspire and captivate enthusiasts around the world. </b></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc9.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal9 end -->
+    <!-- card10 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/G15.jpg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Gemstone Name:</span>&nbsp;"Glitterite"
+            <br>
+            <span class="page2title"> Use for:</span>&nbsp;Decorative Purposes
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $30 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $230 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal609">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card10 end -->
+      <!-- Modal10 start -->
+      <div class="modal fade" id="exampleModal609" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"Glitterite"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/G15.jpg" alt="" class="artworkimages2">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Crystal Structure :</b> Hexagonal
+                      <br><br>
+                      <b>Color:</b> Dark Pink
+                      <br><br>
+                      <b>Composed Of:</b> Silicon dioxide molecules arranged in a repeating hexagonal lattice structure
+                      <br><br>
+                      <b>Locations:</b> Ouachita Mountains, Arkansas, USA
+                      <br><br>
+                      <b>Current Owner:</b> Blaze Wildfire
+                      <br><br>
+                      <i><b> Glitterite gemstones are coveted for their dazzling brilliance and are often incorporated
+                          into exquisite jewelry pieces. Whether adorning rings, necklaces, or earrings, these gems add
+                          a touch of glamour and sophistication to any ensemble.</b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal pdf"><a href="Images/close auc10.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal10 end -->
+      <!-- card11 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctiong1.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Gemstone Name:</span>&nbsp; "Mystiflare"
+            <br>
+            <span class="page2title"> Use for:</span>&nbsp;Decorative Purposes
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $40 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $78 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal610">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card11 end -->
+      <!-- Modal11 start -->
+      <div class="modal fade" id="exampleModal610" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"> "Mystiflare"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctiong1.jpeg" alt="" class="artworkimages2">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Crystal Structure :</b> Triclinic
+                      <br><br>
+                      <b>Color:</b> Light Blue
+                      <br><br>
+                      <b>Composed Of:</b> Sodium chloride molecules arranged in a cubic lattice structure
+                      <br><br>
+                      <b>Locations:</b> Dead Sea, Jordan
+                      <br><br>
+                      <b>Current Owner:</b> Seraphina Winterbourne
+                      <br><br>
+                      <i><b> Mystiflare gemstones are revered for their mystical properties, believed to enhance
+                          intuition and spiritual connection. Practitioners of divination and mysticism often use these
+                          gems as tools for scrying, meditation, and accessing higher realms of consciousness.</b></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc11.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal11 end -->
+      <!-- card12 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctiong2.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Gemstone Name:</span>&nbsp; "Luminescia"
+            <br>
+            <span class="page2title"> Use for:</span>&nbsp; Decorative Purposes
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $87 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $150 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal611">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card12 end -->
+    <!-- Modal12 start -->
+    <div class="modal fade" id="exampleModal611" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"> "Luminescia"</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/auctiong2.jpeg" alt="" class="artworkimages2">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Crystal Structure :</b> Tetragonal
+                    <br><br>
+                    <b>Color:</b> Purple
+                    <br><br>
+                    <b>Composed Of:</b> Carbon atoms arranged in a cubic lattice structure
+                    <br><br>
+                    <b>Locations:</b> Premier Mine, South Africa
+                    <br><br>
+                    <b>Current Owner:</b> Kai Stormcaller
+                    <br><br>
+                    <i><b> The radiant glow emitted by Luminescia gemstones makes them ideal for light therapy
+                        applications. Whether incorporated into lamps, candles, or meditation tools, these gems create a
+                        soothing ambiance and promote relaxation, rejuvenation, and emotional well-being.</b></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc12.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal12 end -->
+    <!-- card13 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionj1.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Jewellery Name:</span>&nbsp;"EnchantElegance Ensemble"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;JewelAura Creations
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $120 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $300 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal612">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card13 end -->
+      <!-- Modal13 start -->
+      <div class="modal fade" id="exampleModal612" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"EnchantElegance Ensemble"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionj1.jpeg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Craftsmanship:</b> Meticulously crafted by master artisans
+                      <br><br>
+                      <b>Material:</b> Exquisite diamonds, lustrous pearls, and radiant gemstones
+                      <br><br>
+                      <b>Setting:</b> Set in lustrous gold for timeless elegance
+                      <br><br>
+                      <b>Previous Owner: </b> Lyra Stardust
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Ember Evergreen
+                      <br><br>
+                      <i><b>"EnchantElegance Ensemble," a spellbinding collection of fine jewelry that embodies the
+                          perfect harmony of enchantment and elegance exuding an aura of timeless beauty and
+                          sophistication.</b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc13.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal13 end -->
+      <!-- card14 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionj2.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Jewellery Name:</span>&nbsp; "DazzleDew Collection"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;Luminary Gems Inc.
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $150 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $690 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal613">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card14 end -->
+      <!-- Modal14 start -->
+      <div class="modal fade" id="exampleModal613" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"DazzleDew Collection"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionj2.jpeg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Craftsmanship:</b> Impeccable attention to detail by skilled artisans
+                      <br><br>
+                      <b>Material:</b> Exquisite diamonds and precious metals
+                      <br><br>
+                      <b>Setting:</b> Regal settings inspired by royal heritage
+                      <br><br>
+                      <b>Previous Owner: </b>Scarlett Dawn
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Luna Sunfire
+                      <br><br>
+                      <i><b>"DazzleDew Collection," a mesmerizing array of fine jewelry that radiates with unparalleled
+                          brilliance and charm. Each piece in this captivating collection is meticulously crafted to
+                          captivate the senses and illuminate any ensemble with its exquisite beauty. </b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc14.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal14 end -->
+      <!-- card15 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionj3.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Jewellery Name:</span>&nbsp; "RadiantRhapsody Series"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp; Opulent Adornments Ltd.
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $90 million
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $200 million
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal614">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card15 end -->
+    <!-- Modal15 start -->
+    <div class="modal fade" id="exampleModal614" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"RadiantRhapsody Series"</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/auctionj3.jpeg" alt="" class="antiqueimages3">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Craftsmanship:</b> Artisanal mastery showcased in every detail
+                    <br><br>
+                    <b>Material:</b> Rare and ethically sourced gemstones
+                    <br><br>
+                    <b>Setting:</b> Ornate designs in platinum for enduring elegance
+                    <br><br>
+                    <b>Previous Owner: </b> Elara Sunburst
+                    <br><br>
+                    <b>Current Owner:</b>
+                    Marcella Starlight
+                    <br><br>
+                    <i><b> "RadiantRhapsody Series," a stunning collection of fine jewelry that embodies the epitome of
+                        elegance and luxury. Crafted with the utmost attention to detail, each piece in this series is a
+                        testament to the skill and artistry of master craftsmen. </b></i>
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc15.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal15 end -->
+    <!-- card16 start -->
+    <div class="row auctionrow" style="margin: 0%;">
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionf1.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Dressing Table:</span>&nbsp;"RegalElegance Vanity"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;LuxeVanity Designs
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $20,000
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $100,000
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal615">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card16 end -->
+      <!-- Modal16 start -->
+      <div class="modal fade" id="exampleModal615" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"RegalElegance Vanity"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionf1.jpeg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Material:</b> Finest mahogany wood with gold leaf.
+                      <br><br>
+                      <b>Design:</b> Regal, European-inspired with intricate detailing.
+                      <br><br>
+                      <b>Features:</b> Large mirror, velvet-lined drawers, vanity light.
+                      <br><br>
+                      <b>Functionality: </b>Ample surface, hidden accessory compartments.
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Kael Shadowforge
+                      <br><br>
+                      <i><b>LuxeVanity Designs, a prestigious company dedicated to crafting exquisite dressing tables
+                          that redefine luxury and elegance. Renowned for their meticulous attention to detail and
+                          commitment to quality. </b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc16.pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal16 end -->
+      <!-- card17 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionf2.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Sofa:</span>&nbsp; "PearlPod Lounge"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp;OpulentSeating Designs
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $50,000
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $230,000
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal616">Details</button>
+          </p>
+        </div>
+      </div>
+      <!-- card17 end -->
+      <!-- Modal17 start -->
+      <div class="modal fade" id="exampleModal616" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">"PearlPod Lounge"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="Images/auctionf2.jpeg" alt="" class="antiqueimages3">
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modalppage2">
+                      <b>Material:</b> Plush velvet upholstery with gold accents.
+                      <br><br>
+                      <b>Design:</b> Elegant sofa in pearl-inspired shape.
+                      <br><br>
+                      <b>Features:</b> Luxurious seating for ultimate relaxation.
+                      <br><br>
+                      <b>Functionality: </b>Integrated side table for convenience.
+                      <br><br>
+                      <b>Current Owner:</b>
+                      Azura Moonbeam
+                      <br><br>
+                      <i><b>OpulentSeating Designs stands as a paragon of sophistication and comfort in the realm of
+                          furniture craftsmanship. It Designs meticulously combines opulence with functionality,
+                          delivering pieces that exude unparalleled luxury and refinement. </b></i>
+                    </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc17 (1).pdf" download="">DOWNLOAD PDF</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal17 end -->
+      <!-- card18 start -->
+      <div class="col-lg-4 auctioncol">
+        <div class="auctiondiv">
+          <img src="Images/auctionf3.jpeg" alt="" class="auctionimg">
+          <br><br>
+          <p class="page2p3">
+            <span class="page2title"> Sofa Set:</span>&nbsp; "PearlySerenity Collection"
+            <br>
+            <span class="page2title"> Company:</span>&nbsp; LuxeLiving Furnishings
+            <br>
+            <span class="page2title">Original Bid:</span> &nbsp; $100,000
+            <br>
+            <span class="page2title">Sold Bid:</span> &nbsp; $500,000
+            <br><br>
+            <button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal617">Details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- card18 end -->
+    <!-- Modal18 start -->
+    <div class="modal fade" id="exampleModal617" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">"PearlySerenity Collection"</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img src="Images/auctionf3.jpeg" alt="" class="antiqueimages3">
+                </div>
+                <div class="col-lg-6">
+                  <p class="modalppage2">
+                    <b>Material:</b> Sumptuous Italian leather.
+                    <br><br>
+                    <b>Design:</b> Classic with intricate detailing.
+                    <br><br>
+                    <b>Features:</b> Adjustable headrests, built-in cup holders.
+                    <br><br>
+                    <b>Functionality:</b> Plush cushions for unparalleled relaxation.
+                    <br><br>
+                    <b>Current Owner:</b>
+                    Thorne Darkfire
+                    <br><br>
+                    <i><b>LuxeLiving Furnishings is a prestigious furniture company dedicated to crafting exquisite sofa
+                        sets that redefine luxury and comfort. It seamlessly combines opulence with functionality to
+                        create pieces that exude sophistication and refinement. </b></i>
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnpage2 pdf" data-bs-dismiss="modal"><a href="Images/close auc18.pdf" download="">DOWNLOAD PDF</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal18 end -->
+    <!-- Modal start (signup)  -->
+    <div class="modal fade" id="exampleModal500" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modalbody">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Welcome to Auction Table!</b></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="signuphead"><b>Personal information</b></p>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">First Name: </label>
+                  <input type="text" placeholder="Your First Name" id="firstname">
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Last Name: </label>
+                  <input type="text" placeholder="Your Last Name" id="lastname">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Phone Number: </label>
+                  <input type="tel" placeholder="Your Phone Number" id="signupphone">
+                </div>
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Email Address: </label>
+                  <input type="text" placeholder="Your Email Address" id="signupemail">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Date Of Birth:</label>
+                  <input type="text" placeholder="DD/MM/YYYY" id="signupdob">
+                </div>
+                <div class="col-lg-6">
+                  <label for="Password" class="singuplabel">Password: </label>
+                  <input type="password" placeholder="Enter Password" id="signuppw">
+                </div>
+              </div>
+              <br>
+              <p class="signuphead"><b>Bank Account information (Only Debit/Credit Cards)</b></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Card Number: </label>
+                  <input type="text" id="cardnumber">
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">MM/YY: </label>
+                  <input type="text" id="mmyy">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">CVC:</label> <br>
+                  <input type="text" id="cvc">
+                </div>
+              </div>
+              <br>
+              <div id="error_message11" class="signupdiv"></div>
+              <div id="error_message12" class="signupdiv"></div>
+              <div id="error_message13" class="signupdiv"></div>
+              <div id="error_message14" class="signupdiv"></div>
+              <div id="error_message15" class="signupdiv"></div>
+              <div id="error_message16" class="signupdiv"></div>
+              <div id="error_message17" class="signupdiv"></div>
+              <div id="error_message18" class="signupdiv"></div>
+              <div id="error_message21" class="signupdiv"></div>
+              <div id="registered"></div>
+              <div class="modal-footer">
+                <button type="button" class="btn haha" onclick="work()">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end (sign up)   -->
+    <!-- Modal start(Login) -->
+    <div class="modal fade" id="exampleModal501" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modalbody1">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Welcome Back!</b></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Username: </label>
+                  <input type="text" placeholder="Enter Username" id="loginusername">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="Password" class="singuplabel">Password: </label>
+                  <input type="password" placeholder="Enter Password" id="loginpw">
+                </div>
+              </div>
+              <br>
+              <div id="error_message19" class="signupdiv"></div>
+              <div id="error_message20" class="signupdiv"></div>
+              <div id="login"></div>
+              <br>
+              <div class="modal-footer">
+                <button type="button" class="btn haha" onclick="work2()">Login</button>
+            </form>
+          </div>
+          <!-- modal End(Login) -->
+  </main>
+  <!-- Footer Start -->
+  <footer class="bg-body-tertiary text-center">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+          href="https://www.facebook.com" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+          href="https://www.twitter.com" role="button"><i class="fab fa-twitter"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+          href="https://www.google.com" role="button"><i class="fab fa-google"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+          href="https://www.instagram.com" role="button"><i class="fab fa-instagram"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+          href="https://www.linkedin.com" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+          href="https://www.github.com" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    </section>
+    <section class="">
+      <form action="">
+        <div class="row d-flex justify-content-center" style="margin: 0%; padding: 0%;">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12">
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="email" class="form-control" placeholder="Email address" />
+            </div>
+          </div>
+          <div class="col-auto">
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4" id="btnn" onclick="valid1()">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Auction Table
+            </h6>
+            <p>
+              Discover treasures and bid on coveted items at our dynamic auction table website, where excitement meets
+              opportunity with every click.
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="FAQs.html" class="text-reset">FAQs</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-reset">Contact us</a>
+            </p>
+            <p>
+              <a href="closedauction.html" class="text-reset">Closed Auctions</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-reset">About us</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              auctiontable@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="index.html">AuctionTable.com</a>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script src="script.js"></script>
+</body>
+
+</html>

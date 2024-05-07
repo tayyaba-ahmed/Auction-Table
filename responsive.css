@@ -1,0 +1,194 @@
+@media screen and (min-width: 992px) {
+    .p1page2 {
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 991px) {
+    .collapse {
+        background-color: #00074E;
+        position: relative;
+        top: 5rem;
+    }
+    .btnnn {
+        margin-right: 2rem;
+    }
+    .nav-link.home {
+        margin-left: 2rem;
+    }
+    .btn2 {
+        margin-bottom: 1rem;
+    }
+    .navbarbrand {
+        position: relative;
+        bottom: 3rem;
+    }
+    .p1 {
+        position: relative;
+        bottom: 3rem;
+    }
+    .logo {
+        position: absolute;
+        top: -1.5rem;
+        left: -1rem;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .navbarheading {
+        font-size: small;
+    }
+}
+@media screen and (min-width: 1115px) {
+   .firstul {
+    position: relative;
+    left: 3rem;
+   }
+}
+@media screen and (min-width: 1750px) {
+    .navbarbrand {
+        position: relative;
+        top: 3rem;
+    }
+    .p1 {
+        position: relative;
+        top: 3rem;
+    }
+ }
+ @media screen and (min-width: 1750px) {
+    .card.hahah {
+        margin-top: 5rem;
+    }
+ }
+ @media screen and (max-width: 1450px) {
+    .navbarbrand {
+       font-size: 7.5rem; 
+    }
+ }
+ @media screen and (min-width: 1979px) {
+    .auctionp1 {
+        margin-top: 5rem;
+    }
+ }
+ @media screen and (max-width: 1350px) {
+    .navbarbrand {
+       font-size: 6.5rem; 
+    }
+ }
+ @media screen and (max-width: 1250px) {
+    .navbarbrand {
+       font-size: 5.5rem; 
+    }
+    .p1 {
+        font-size: 1.5rem;
+    }
+ }
+ @media screen and (max-width: 1150px) {
+    .navbarbrand {
+       font-size: 5rem; 
+    }
+    .p1 {
+        font-size: 1.5rem;
+    }
+ }
+ @media (max-width: 1150px) and (min-width: 991px) {
+    .navbarbrand {   
+        position: relative;
+        top: -2rem;
+     }
+     .p1 {
+         position: relative;
+         top: -2rem;
+         
+     }
+ }
+ @media screen and (max-width: 715px) {
+    .navbarbrand {
+       font-size: 3rem; 
+    }
+    .p1 {
+        font-size: 1rem;
+    }
+ }
+ @media screen and (max-width: 550px) {
+    .navbarbrand {
+       font-size: 2rem; 
+       position: relative;
+       bottom: 3rem;
+    }
+    .p1 {
+        font-size: 0.5rem;
+        position: relative;
+        bottom: 3rem;
+    }
+ }
+ @media screen and (max-width: 490px) {
+    .navbarbrand {
+       font-size: 1.5rem; 
+       position: relative;
+       bottom: 4rem;
+    }
+    .p1 {
+        font-size: 0.5rem;
+        position: relative;
+       bottom: 4rem;
+    }
+ }
+ @media screen and (max-width: 370px) {
+    .navbarbrand {
+       font-size: 1rem; 
+       position: relative;
+       bottom: 5rem;
+    }
+    .p1 {
+        font-size: 0.5rem;
+        position: relative;
+       bottom: 5rem;
+    }
+ }
+ @media screen and (max-width: 800px) {
+    .rulesandreg {
+        margin: 1rem 2rem 1rem 2rem;
+    }
+ }
+ @media screen and (min-width:1900px) {
+    #slider {
+        margin-top: 11rem;
+    }
+    .xyz {
+        margin-top: 11rem;
+    }
+    .contactcon {
+        margin-top: 10rem;
+    }
+ }
+ @media (min-width:1500px) and (max-width:1900px) {
+    #slider {
+        margin-top: 7rem;
+    }
+ }
+ @media (min-width:1800px) and (max-width:1900px) {
+    .xyz {
+        margin-top: 6rem;
+    }
+    .contactcon {
+        margin-top: 7rem;
+    }
+ }
+ @media (min-width:1700px) and (max-width:1800px) {
+    .xyz {
+        margin-top: 4rem;
+    }
+    .contactcon {
+        margin-top: 6rem;
+    }
+ }
+ @media (min-width:1600px) and (max-width:1700px) {
+    .xyz {
+        margin-top: 2rem;
+    }
+    .contactcon {
+        margin-top: 4rem;
+    }
+ }

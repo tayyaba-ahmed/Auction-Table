@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auction Table</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="owl.carousel.min.css">
+</head>
+
+<body>
+  <!-- navbar start -->
+  <img src="Images/Capture.PNG" alt="" class="image1 img-fluid" height="auto">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="Tclick()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto firstul">
+          <li class="nav-item">
+            <a class="nav-link home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="artwork.html">Art Work</a></li>
+              <li><a class="dropdown-item" href="antiques.html">Antiques</a></li>
+              <li><a class="dropdown-item" href="jewellery.html">Jewellery</a></li>
+              <li><a class="dropdown-item" href="watches.html">Watches</a></li>
+              <li><a class="dropdown-item" href="furniture.html">Furniture</a></li>
+              <li><a class="dropdown-item" href="gemstones.html">Gemstones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="closedauction.html">Closed Auctions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item navbtn">
+            <button class="btnnn" data-bs-toggle="modal" data-bs-target="#exampleModal500">Sign Up</button>
+          </li>
+          <li class="nav-item navbtn">
+            <button class="btn2" data-bs-toggle="modal" data-bs-target="#exampleModal501">Login</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <a class="navbarbrand navbarheading" href="#">Auction Table</a>
+  <p class="p1 navbarheading">BID, WIN, SELL, PROFIT!</p>
+  <!-- navbar end -->
+  <main>
+    <br><br><br>
+    <!-- section 1 start (carousel)-->
+    <section id="slider">
+      <div class="container">
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/Ant1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/Ant2.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/F1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/F2.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/jewellery1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/jewellery2.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/W1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/W2.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/P1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/P2.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/G1.jpg">
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Images/G2.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  section 1 end (carousel) -->
+    <!-- Section 2 start (How it works sections) -->
+    <section>
+      <div class="section2-div1">
+        <h1 class="section2-heading">How Does Our Auction Process Work?</h1>
+        <p class="section2-p1" >Welcome to our guide on understanding the auction process!
+          Whether you're a seasoned bidder or a newcomer to auctions, knowing how our process works can help you
+          navigate and make informed decisions. Below, we'll walk you through the typical steps involved in our
+          auctions:
+        </p>
+        <div class="items">
+          <div class="section2-div2">
+            <h1 class="section2-heading1">1- Auction Listing:</h1>
+            <p class="section2-p2">- Selection: Our team selects items for auction, ranging from real estate to fine
+              art, collectibles, and more. <br>
+              - Description: Detailed descriptions and high-quality images are provided for each item. <br>
+              - Starting Price: We set a starting price or reserve price for each item: the minimum amount at which we
+              are willing to sell.
+            </p>
+          </div>
+          <div class="section2-div2">
+            <h1 class="section2-heading1">2- Registration:</h1>
+            <p class="section2-p2">- Bidders: Interested individuals must register for our auction, providing necessary
+              personal information and agreeing to our terms and conditions.
+            </p>
+          </div>
+          <div class="section2-div2">
+            <h1 class="section2-heading1">3- Bidding Process:</h1>
+            <p class="section2-p2">- Online Platform: Our auctions typically take place through our secure online
+              bidding platform. <br>
+              - Increments: Bidders place bids, with each bid increasing the price of the item by predetermined
+              increments. <br>
+              - Real-Time Updates: Bidders can monitor bidding activity in real time and receive notifications when
+              they've been outbid.
+            </p>
+          </div>
+          <div class="section2-div2">
+            <h1 class="section2-heading1">4- Winning Bid:</h1>
+            <p class="section2-p2">- Highest Bidder: At the close of bidding, he highest bidder emerges victorious,
+              securing ownership of the item. <br>
+              - Confirmation: Our team confirms the winning bid and contacts the bidder to arrange payment and
+              collection.
+            </p>
+          </div>
+          <div class="section2-div2">
+            <h1 class="section2-heading1">5- Payment and Settlement:</h1>
+            <p class="section2-p2">- Selection: Our team selects items for auction, ranging from real estate to fine
+              art, collectibles, and more. <br>
+              - Description: Detailed descriptions and high-quality images are provided for each item, giving bidders a
+              clear understanding of what's available.
+            </p>
+          </div>
+          <div class="section2-div2">
+            <h1 class="section2-heading1">6- Collection or Delivery:</h1>
+            <p class="section2-p2">- Pickup: The winning bidder arranges for the collection of the item from our
+              designated location. <br>
+              - Shipping: For bidders unable to pick up the item in person, shipping options may be available for an
+              additional fee.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 end (How it works sections) -->
+    <!-- Section Start(Rules And Guidelines) -->
+    <br><br>
+    <section>
+      <h1 class=" section2-heading">RULES AND REGULATIONS </h1>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4">Withdrawal of Bids: </b>
+              <br>
+              Bidders generally cannot withdraw bids once placed. <br>
+              Exceptions may apply with auctioneer approval. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4"> Bid Rejection: </b> <br>
+              The auctioneer may reject invalid or suspicious bids. <br>
+              This includes bids below the reserve price or by ineligible bidders. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4">Payment and Fees:</b> <br>
+              Clearly outline accepted payment methods. <br>
+              Specify any transaction fees or commissions charged by the platform. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4"> Payment Obligations: </b> <br>
+              Successful bidders must pay within the specified timeframe. <br>
+              Failure to pay may result in penalties or legal action. <br>
+              Implement a penalty for excessive bid retractions to discourage abuse. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4"> Understanding Auction Terms: </b> <br>
+              Bidders must know the auction terms and conditions. <br>
+              This includes buyer's premiums, payment deadlines, and item descriptions. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0%;">
+        <div class="col-lg-12">
+          <div class="rulesandreg">
+            <p class="homepg"> <b class="bl4"> Compliance with Laws: </b> <br>
+              Bidders must follow all relevant laws and regulations. <br>
+              This includes bidding, payment, and item purchase laws. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section End (Rules And Guidelines) -->
+    <br>
+    <!-- Section 3 start (testinomials)  -->
+    <section>
+      <div class="section3-div1">
+        <h1 class="section2-heading">Testinomials</h1>
+        <div class="section3-div2">
+          <div id="testimonial_area" class="section_padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="testmonial_slider_area text-center owl-carousel">
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/imag3.jpg" alt="" class="img-fluid">
+                      </div>
+                      <h5>Chloe Walker</h5>
+                      <span>Senior Vice President</span>
+                      <p class="content">
+                        "Top-notch platform, diverse opportunities. Very satisfied!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/image1.jpeg" alt="" class="img-fluid">
+                      </div>
+                      <h5>Elijah Patel</h5>
+                      <span>Executive Director</span>
+                      <p class="content">
+                        "Impressive variety, smooth transactions. Recommended!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/image4.jpg" alt="" class="img-fluid">
+                      </div>
+                      <h5>Grace Wilson</h5>
+                      <span>Chief Officer</span>
+                      <p class="content">
+                        "Excellent platform, valuable acquisitions. Highly satisfied!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/image2.webp" alt="" class="img-fluid">
+                      </div>
+                      <h5>Aaron Smith</h5>
+                      <span>Managing Director</span>
+                      <p class="content">
+                        "Amazing service, exceptional quality. Completely content!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/image5.jpg" alt="" class="img-fluid">
+                      </div>
+                      <h5>Emily Davis</h5>
+                      <span>Director Partnerships</span>
+                      <p class="content">
+                        "Fantastic product, innovative features. Totally impressed!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+
+                    <div class="container box-area">
+                      <div class="img-area">
+                        <img src="Images/image6.jpg" alt="" class="img-fluid">
+                      </div>
+                      <h5>Ethan Brown</h5>
+                      <span>Head of Business</span>
+                      <p class="content">
+                        "Fantastic service, seamless bidding. Absolutely delighted!"
+                      </p>
+                      <h6 class="socials">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 end (testinomials)  -->
+    <br>
+    <!-- Modal start (signup)  -->
+    <div class="modal fade" id="exampleModal500" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modalbody">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Welcome to Auction Table!</b></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="signuphead"><b>Personal information</b></p>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">First Name: </label>
+                  <input type="text" placeholder="Your First Name" id="firstname">
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Last Name: </label>
+                  <input type="text" placeholder="Your Last Name" id="lastname">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Phone Number: </label>
+                  <input type="tel" placeholder="Your Phone Number" id="signupphone">
+                </div>
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Email Address: </label>
+                  <input type="text" placeholder="Your Email Address" id="signupemail">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Date Of Birth:</label>
+                  <input type="text" placeholder="DD/MM/YYYY" id="signupdob">
+                </div>
+                <div class="col-lg-6">
+                  <label for="Password" class="singuplabel">Password: </label>
+                  <input type="password" placeholder="Enter Password" id="signuppw">
+                </div>
+              </div>
+              <br>
+              <p class="signuphead"><b>Bank Account information (Only Debit/Credit Cards)</b></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Card Number: </label>
+                  <input type="text" id="cardnumber">
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">MM/YY: </label>
+                  <input type="text" id="mmyy">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">CVC:</label> <br>
+                  <input type="text" id="cvc">
+                </div>
+              </div>
+              <br>
+              <div id="error_message11" class="signupdiv"></div>
+              <div id="error_message12" class="signupdiv"></div>
+              <div id="error_message13" class="signupdiv"></div>
+              <div id="error_message14" class="signupdiv"></div>
+              <div id="error_message15" class="signupdiv"></div>
+              <div id="error_message16" class="signupdiv"></div>
+              <div id="error_message17" class="signupdiv"></div>
+              <div id="error_message18" class="signupdiv"></div>
+              <div id="error_message21" class="signupdiv"></div>
+              <div id="registered"></div>
+              <div class="modal-footer">
+                <button type="button" class="btn haha" onclick="work()">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end (sign up)   -->
+    <!-- Modal start(Login) -->
+    <div class="modal fade" id="exampleModal501" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modalbody1">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Welcome Back!</b></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="text" class="singuplabel">Username: </label>
+                  <input type="text" placeholder="Enter Username" id="loginusername">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="Password" class="singuplabel">Password: </label>
+                  <input type="password" placeholder="Enter Password" id="loginpw">
+                </div>
+              </div>
+              <br>
+              <div id="error_message19" class="signupdiv"></div>
+              <div id="error_message20" class="signupdiv"></div>
+              <div id="login"></div>
+              <br>
+              <div class="modal-footer">
+                <button type="button" class="btn haha" onclick="work2()">Login</button>
+            </form>
+          </div>
+          <!-- modal End(Login) -->
+  </main>
+  <!-- Footer Start -->
+  <footer class="bg-body-tertiary text-center">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+          href="https://www.facebook.com" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+          href="https://www.twitter.com" role="button"><i class="fab fa-twitter"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+          href="https://www.google.com" role="button"><i class="fab fa-google"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+          href="https://www.instagram.com" role="button"><i class="fab fa-instagram"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+          href="https://www.linkedin.com" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+          href="https://www.github.com" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    </section>
+    <section class="">
+      <form action="">
+        <div class="row d-flex justify-content-center" style="margin: 0%; padding: 0%;">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12">
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="email" class="form-control" placeholder="Email address" />
+            </div>
+          </div>
+          <div class="col-auto">
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4" id="btnn" onclick="valid1()">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Auction Table
+            </h6>
+            <p>
+              Discover treasures and bid on coveted items at our dynamic auction table website, where excitement meets
+              opportunity with every click.
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="FAQs.html" class="text-reset">FAQs</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-reset">Contact us</a>
+            </p>
+            <p>
+              <a href="closedauction.html" class="text-reset">Closed Auctions</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-reset">About us</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              auctiontable@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="index.html">AuctionTable.com</a>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script src="script.js"></script>
+  <script src="owl.carousel.min.js"></script>
+</body>
+
+</html>

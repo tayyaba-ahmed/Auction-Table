@@ -1,0 +1,927 @@
+@font-face {
+    font-family: myFont;
+    src: url(Angelic\ Bonques\ Script.ttf);
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url(Angelic\ Bonques\ Sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(Yantramanav-Regular.ttf);
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+.image1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar {
+    padding: 0%;
+}
+
+.container-fluid {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    position: absolute;
+    top: -1rem;
+}
+
+.navbar-brand {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbarbrand {
+    color: #FFD700;
+    font-family: myFont;
+    font-size: 8.5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarbrand:hover {
+    color: #FFD700;
+}
+
+.p1 {
+    color: white;
+    font-family: myFont1;
+    font-size: 2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.upwards {
+color: transparent;
+}
+
+.nav-link {
+    color: white;
+    font-family: myFont1;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.nav-link.home {
+    margin-left: 7rem;
+}
+
+.nav-link:hover {
+    display: inline-block;
+    color: #FFD700;
+    border-bottom: 0.1rem solid white;
+}
+
+.nav-link:active {
+    color: #FFD700;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #FFD700;
+    border: none;
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+}
+.collapse {
+    background-color: transparent;
+} 
+
+.btnnn {
+    border: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-family: myFont1;
+    font-weight: bolder;
+}
+
+.btn2 {
+    border: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 4rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-family: myFont1;
+    font-weight: bolder;
+}
+
+.navbtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn1:hover {
+    color: #FFD700;
+}
+
+.dropdown-menu {
+    background-color: #00074E;
+    color: white;
+}
+
+.dropdown-item {
+    background-color: #00074E;
+    color: white;
+    font-family: myFont1;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover {
+    color: #FFD700;
+}
+
+.btn1 {
+    border: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 4rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-family: myFont1;
+    font-weight: bolder;
+    position: relative;
+    left: -1rem;
+}
+
+.slider {
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+.slider-card {
+    margin: 3rem 1rem 0rem 1rem;
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 18.75rem;
+    height: 25rem;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(45% - 1.5rem);
+    right: 0;
+    opacity: 1;
+    font-size: 3.125rem !important;
+    z-index: 1;
+    color: #00074E;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(45% - 1.5rem);
+    left: 0;
+    opacity: 1;
+    font-size: 3.125rem !important;
+    z-index: 1;
+    color: #00074E;
+}
+
+footer {
+    background-color: #00074E;
+    color: white;
+    font-family: myFont2;
+}
+
+#btnn {
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 9rem;
+}
+
+#btnn:hover {
+    color: rgb(191, 237, 255);
+}
+
+.section2-div1 {
+    margin: 3rem 5rem 1rem 5rem;
+}
+
+.section2-heading {
+    text-align: center;
+    color: #FFD700;
+    font-family: myFont1;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.section2-p1 {
+    text-align: center;
+    font-family: myFont2;
+    font-weight: 590;
+    font-size: 1.1rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section2-div2 {
+    width: 30rem;
+    height: auto;
+    margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+    background-color: #00074E;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.section2-div3 {
+    width: 30rem;
+    height: auto;
+    margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+    background-color: #00074E;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    position: relative;
+    right: 4.5rem;
+}
+
+.section2-heading1 {
+    text-align: center;
+    color: #FFD700;
+    font-family: myFont1;
+    font-size: 1.5rem;
+}
+
+.section2-p2 {
+    font-family: myFont2;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.numbers {
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    left: 2.9rem;
+    bottom: 2.1rem;
+}
+
+.numbers1 {
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    right: 1.6rem;
+    bottom: 2.1rem;
+    z-index: 1;
+}
+
+.section3-div1 {
+    margin: 3rem 5rem 3rem 5rem;
+}
+
+.section3-div2 {
+    background-color: #00074E;
+    width: 100%;
+    height: auto;
+}
+
+.box-area {
+    padding: 2rem;
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.2rem 1rem;
+    margin: 3.5rem 0rem;
+    height: auto;
+}
+
+.box-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0a69ed;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: myFont2;
+}
+
+.box-area span {
+    color: #262626;
+    display: block;
+    font-size: 0.8rem;
+    margin: 0rem 0rem 0.8rem;
+    font-weight: 400;
+}
+
+.box-area .content {
+    color: #262626;
+}
+
+.box-area .img-area {
+    width: 5.6rem;
+    height: 5.6rem;
+    position: absolute;
+    top: -2rem;
+    left: 0rem;
+    bottom: 0rem;
+    margin: 0rem auto;
+    right: 0rem;
+    z-index: 1;
+    border: 0.3rem solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.box-area .img-area img {
+    width: 100%;
+    height: 5.3rem;
+    border-radius: 50%;
+}
+
+.socials {
+    margin-top: 2rem;
+}
+
+.socials i {
+    margin: 0rem 0.7rem;
+    color: #0a69ed;
+    font-size: 1.1rem;
+}
+
+#testimonial_area .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#testimonial_area .owl-prev,
+#testimonial_area .owl-next {
+    width: 1.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #0a69ed;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+}
+
+#testimonial_area .owl-prev {
+    left: -4rem;
+    top: -2rem;
+}
+
+#testimonial_area .owl-next {
+    right: -4rem;
+    top: -2rem;
+}
+
+.p1page2 {
+    font-family: myFont2;
+    color: #262626;
+    font-size: 1rem;
+    display: flex;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+.card2 {
+    background-color: white;
+}
+
+.card1 {
+    background-color: #00074E;
+    padding: 2rem 2rem 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.artworkimages {
+    width: 50%;
+    height: 25rem;
+}
+
+.p2page2 {
+    color: #FFD700;
+    font-family: myFont1;
+    margin-left: 0.30rem;
+    font-size: 0.9rem;
+}
+
+.page2title {
+    color: #FFD700;
+    font-family: myFont1;
+}
+
+.page2p3 {
+    color: white;
+    font-family: myFont2;
+}
+
+.page2head {
+    font-family: myFont1;
+    text-align: center;
+    color: #FFD700;
+}
+
+#videodiv {
+    border-radius: 0.7rem;
+    height: 100%;
+}
+
+.artworkimages1 {
+    width: 100%;
+}
+
+.modalppage2 {
+    font-size: 1rem;
+}
+
+.artworkimages2 {
+    width: 100%;
+    height: 27rem;
+}
+
+.artworkimages3 {
+    width: 100%;
+    height: 29rem;
+}
+
+.btnpage2 {
+    background-color: #00074E;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: myFont1;
+}
+
+.bl {
+    text-align: center;
+}
+
+.bl1 {
+    text-align: center;
+    font-family: myFont2;
+    color: #262626;
+}
+
+.bl2 {
+    text-align: center;
+    font-family: myFont1;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.bl3 {
+    font-family: myFont2;
+}
+
+.about1 {
+    text-align: justify;
+    font-family: myFont2;
+    background-color: #00074E;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.about2 {
+    text-align: justify;
+    font-family: myFont2;
+}
+
+.bankai {
+    background-color: #00074E;
+    color: antiquewhite;
+    padding: 2rem 2rem 2rem 2rem;
+    position: relative;
+    font-size: 1rem;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+.xyz {
+    margin: 0rem 2rem 1rem 2rem;
+}
+
+.aboutimages {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.bl4 {
+    font-family: myFont1;
+    color: #FFD700;
+}
+
+.bl5 {
+    color: white;
+    text-align: center;
+    font-family: myFont2;
+}
+
+.char1img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.bl6 {
+    width: 62rem;
+    border-radius: 1rem;
+}
+
+.bl9 {
+    height: 22rem;
+    border-radius: 1rem;
+    position: relative;
+    right: 3rem;
+    top: -2rem;
+}
+
+.page2input {
+    background-color: #00074E;
+    color: white;
+    border: none;
+    width: 5.2rem;
+}
+
+.haha {
+    background-color: #00074E;
+    color: white;
+}
+
+.biddinglabel {
+    font-weight: bold;
+}
+
+.biddinginput {
+    border-radius: 0.5rem;
+    border: 0.1rem solid gainsboro;
+}
+
+#error_message {
+    color: red;
+    font-style: italic;
+}
+
+#error_message1 {
+    color: red;
+    font-style: italic;
+}
+
+#error_message2 {
+    color: red;
+    font-style: italic;
+}
+
+.biddiv1 {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.accepted {
+    color: green;
+    font-style: italic;
+}
+
+.biddinginput.page2input1 {
+    border: none;
+    color: #000;
+    font-weight: bold;
+    background-color: white;
+}
+
+.antiqueimages1 {
+    width: 100%;
+    height: 26rem;
+}
+
+.antiqueimages {
+    width: 50%;
+    height: 25rem;
+}
+
+.antiqueimages2 {
+    width: 45%;
+    height: 25.1rem;
+}
+
+.antiqueimages3 {
+    width: 100%;
+    height: 27rem;
+}
+
+.auctionp1 {
+    font-weight: bold;
+    font-family: myFont2;
+    color: #262626;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    margin: 1rem;
+}
+
+.row.auctionrow {
+    margin-top: 1rem;
+}
+
+.col-lg-4.auctioncol {
+    background-color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.auctiondiv {
+    background-color: #00074E;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.auctionimg {
+    width: 100%;
+    height: 25rem;
+}
+
+.page2title.auction {
+    text-align: center;
+}
+
+.col-lg-3.auctioncol1 {
+    background-color: #00074E;
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    width: 26rem;
+}
+
+.signupdiv {
+    color: red;
+    font-style: italic;
+    font-family: myFont2;
+}
+
+#registered {
+    color: green;
+    font-family: myFont2;
+}
+
+#firstname {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#lastname {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#cvc {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#mmyy {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#cardnumber {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#signupdob {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#signupphone {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#signupemail {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#modalbody {
+    color: #00074E;
+    font-family: myFont1;
+}
+
+.signuphead {
+    display: inline-block;
+    font-size: 1.1rem;
+    border-bottom: 0.1rem solid #00074E;
+}
+
+.singuplabel {
+    font-family: myFont2;
+}
+
+#modalbody1 {
+    color: #00074E;
+    font-family: myFont1;
+}
+
+#loginusername {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#loginpw {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#signuppw {
+    border-radius: 0.5rem;
+    font-family: myFont2;
+}
+
+#login {
+    color: green;
+    font-family: myFont2;
+}
+
+.auctionimages1 {
+    height: 26rem;
+    width: 22.5rem;
+}
+
+#watchcard10 {
+    height: 30rem;
+}
+
+#watchcard11 {
+    height: 29rem;
+}
+
+#watchcard9 {
+    height: 29rem;
+}
+
+#watchcard3 {
+    height: 27rem;
+}
+
+#gemstonescard2 {
+    height: 28rem;
+}
+
+#gemstonescard5 {
+    height: 29rem;
+}
+
+#gemstonescard6 {
+    height: 24rem;
+}
+
+#gemstonescard7 {
+    height: 22rem;
+}
+
+#gemstonescard8 {
+    height: 23rem;
+}
+
+#gemstonescard11 {
+    height: 28.5rem;
+}
+
+.homepg {
+    font-family: myFont2;
+    background-color: #00074E;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+}
+
+.rulesandreg {
+    margin: 1rem 10rem 1rem 10rem;
+}
+
+.contactp {
+    font-family: myFont2;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contactcon {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+#contactbtn {
+    background-color: #FFD700;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold
+}
+
+#message {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#contactname {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#contactemail {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contactformcon {
+    background-color: #00074E;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      color: #FFD700;
+}
+.contacthead {
+    font-family: myFont1;
+    color: #FFD700;
+}
+.contactspan {
+    font-weight: 100;
+}
+.contact-info {
+    background-color: #00074E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+.contacti {
+    color: #FFD700;
+}
+.btnpage2.pdf {
+    height: 3rem;
+    width: 12rem;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.btnpage2.pdf a {
+    color: white;
+    text-decoration: none;
+}
+.contacterror {
+    color: red;
+    font-style: italic;
+}
