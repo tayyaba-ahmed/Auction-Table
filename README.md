@@ -34,7 +34,7 @@ To run the website locally, you need:
 4. Explore different sections of the website using the menu links.
 
 ## Live Repository
-The live repository for this project is hosted at https://tayyaba-ahmed.github.io/Auction-Table/(#).
+The live repository for this project is hosted at https://tayyaba-ahmed.github.io/Auction-Table/.
 
 ## Features
 - Beautifully designed home page with vibrant color combinations.
